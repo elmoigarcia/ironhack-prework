@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+  font-size: 15px;    
+}
+
+h1	{
+  font-size: 3em; 
+  margin-bottom: 40px;
+}
+
+h2	{
+  font-size: 2.1em; 
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color:rgb(83, 88, 98);  
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px; 
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none; 
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  margin: -20px 20px 0 0; 
+  position: relative;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px 10px;
+}
+
+.top-left {
+  margin-left: 10px
+}
+
+.heart {
+  margin-right: 10px
+}
+
+header {
+  height: 600px;
+	background-color:rgb(32,101,136);
+	padding-top: 5px;
+  background-image :	url("images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+
+header .bar  {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+header .bar .logo-bar {
+  margin:0 15px 0 10px;
+	width:120px;
+	height:40px;
+  float: left;
+}
+
+header .bar .search-bar {
+	background-color: rgb(31, 82 ,111);
+	width: 72%;
+	height:40px;
+  vertical-align: middle;       
+}
+
+header .bar .icon{
+  background-color: rgb(31, 82 ,111);
+  background-image: url("images/lupa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  color: white;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle; 
+}
+
+header .bar .nav-bar {
+  color: white;
+  float: right;
+  padding: 0 15px 5px 0;  
+}
+
+.log{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin:10px;
+}
+
+header .nav-bar .bear {
+	width:40px;
+  height:45px;
+  vertical-align: middle;
+}
+
+header .container {
+	color: white;
+	margin: 0 auto;
+  width: 40%;
+  padding: 120px 500px 0 0;
+  position: relative;
+  letter-spacing: 0.4px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+header .button {
+  border: 25px solid rgb(240, 146, 51);
+  border-width: 8px 2em;
+  border-radius: 30px;
+  background-color: rgb(240, 146, 51);
+  color:white;
+  text-decoration: none;
+  float: left;
+  position: relative;
+  margin-top:20px;
+}
+
+.section1 {
+  Background-color: rgb(39, 53, 71);
+  color: white;
+  height: 650px;
+}
+
+.section1 .container2 {
+  float:right;
+  position: relative;
+  width: 435px;
+  padding: 80px 220px 0 0;
+}
+
+.section1 .img-collaboration {
+  margin: 0 auto;
+  height: 450px ;
+  width: 450px;
+  padding: 60px 0 0 250px;
+}
+
+.section1 .button2 {
+  border: 25px solid rgb(203, 56, 55);
+  border-width: 8px 2em;
+  border-radius: 30px;
+  background-color: rgb(203, 56, 55);
+  color:white;
+  text-decoration: none;
+  position: relative;
+}
+
+.section1 ul {
+  margin-bottom: 30px;
+}
+
+.section1 li {
+  font-size: 1em;
+  letter-spacing: 0.4px;
+  margin: 10px;
+}
+
+.section2 {
+  background-image :	url("images/forklift.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  color:white;
+}
+
+.section2 .text {
+  float:left;
+  position: absolute;
+  width: 400px;
+  padding: 100px 0 0 220px;
+  margin-bottom: 35px;
+}
+
+.section2 .button3 {
+  border: 25px solid rgb(49, 68, 88);
+  border-width: 8px 2em;
+  border-radius: 30px;
+  background-color: rgb(49, 68, 88);
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.section3 {
+  background-color: white;
+  height: 600px;
+}
+
+.section3 .section3-text {
+  text-align: center;
+  color: rgb(83, 88, 98);
+  padding-top: 40px;
+}
+
+.section3 .container3 {
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 60%; 
+}
+
+.section3 .container3-box {
+  width: 29%;
+  float: left;
+  color: rgb(135, 145, 156);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.section3 .container3-box .img {
+  width: 115px;
+  padding-bottom: 15px;
+}
+
+.section3 .links {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
